@@ -1,0 +1,24 @@
+{
+  "name": "weather-report-tg-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ART1KZ/weather-report-tg-bot.git",
+  "author": "ART1KZ <artemkiselev18072k6@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.33.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@grammyjs/types": "^3.17.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
