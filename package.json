@@ -6,6 +6,7 @@
   "author": "ART1KZ <artemkiselev18072k6@mail.ru>",
   "license": "MIT",
   "dependencies": {
+    "@supabase/supabase-js": "^2.47.2",
     "dotenv": "^16.4.7",
     "grammy": "^1.33.0"
   },
